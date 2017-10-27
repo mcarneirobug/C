@@ -2,27 +2,22 @@
 
 int main( ) {
 
-    //definir dados
+    
     int n;
-    int tam;
-    int contador = 0;
+    int t;
+    int count = 0;
 
     scanf("%d", &n);
 
     for(int i = 0; i < n; i++)
     {
-        scanf("%d", &tam);
-	//pega os tamanhos e subtrai -1 de todos
-	contador = contador + tam - 1;
-    } //end repetir
+        scanf("%d", &t);
+	[
+	count = count + t - 1;
+    } 
 
-/*
-* printa na tela o numero de pedacos armazenados
-*/
-    printf("%d", contador);
-
-    /* retornar */
-
+    printf("%d", count);
+    
     return 0;
 } //end main( )
 
